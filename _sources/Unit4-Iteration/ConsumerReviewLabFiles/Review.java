@@ -185,4 +185,10 @@ public class Review {
     // return number of stars
     return stars; 
   }
+  
+  public static double sentimentValTest(String word) {
+    sentimentVal("happily");
+    sentimentVal("terrible");
+    sentimentVal("cold");
+    return word;
 }
